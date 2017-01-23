@@ -7,7 +7,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/The-First-Diary-in-English/index.html" afterPath="$PROJECT_DIR$/The-First-Diary-in-English/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TwentyEleven暗色系主题实现透明/index.html" afterPath="$PROJECT_DIR$/TwentyEleven暗色系主题实现透明/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TwentyTwelve透明主题二次美化版/index.html" afterPath="$PROJECT_DIR$/TwentyTwelve透明主题二次美化版/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/index.html" afterPath="$PROJECT_DIR$/about/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2013/06/index.html" afterPath="$PROJECT_DIR$/archives/2013/06/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2013/08/index.html" afterPath="$PROJECT_DIR$/archives/2013/08/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2013/09/index.html" afterPath="$PROJECT_DIR$/archives/2013/09/index.html" />
@@ -95,6 +94,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-数据结构-一个简单的栈模型/index.html" afterPath="$PROJECT_DIR$/cpp-数据结构-一个简单的栈模型/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-检测机器大端或者小端/index.html" afterPath="$PROJECT_DIR$/cpp-检测机器大端或者小端/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp的开发效率真的那么低吗/index.html" afterPath="$PROJECT_DIR$/cpp的开发效率真的那么低吗/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/donors/index.html" afterPath="$PROJECT_DIR$/donors/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ejb-local/index.html" afterPath="$PROJECT_DIR$/ejb-local/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello-es6/index.html" afterPath="$PROJECT_DIR$/hello-es6/index.html" />
@@ -108,7 +108,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/it-ebooks/index.html" afterPath="$PROJECT_DIR$/it-ebooks/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery-读取-checkbox/index.html" afterPath="$PROJECT_DIR$/jquery-读取-checkbox/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kill-xp-and-ie8/index.html" afterPath="$PROJECT_DIR$/kill-xp-and-ie8/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navicat-v11-全系列通杀/index.html" afterPath="$PROJECT_DIR$/navicat-v11-全系列通杀/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/10/index.html" afterPath="$PROJECT_DIR$/page/10/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/11/index.html" afterPath="$PROJECT_DIR$/page/11/index.html" />
@@ -122,8 +121,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/7/index.html" afterPath="$PROJECT_DIR$/page/7/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/8/index.html" afterPath="$PROJECT_DIR$/page/8/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/9/index.html" afterPath="$PROJECT_DIR$/page/9/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robots.txt" afterPath="$PROJECT_DIR$/robots.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sitemap.xml" afterPath="$PROJECT_DIR$/sitemap.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql-备忘录/index.html" afterPath="$PROJECT_DIR$/sql-备忘录/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/世界上有10种人-一种懂二进制-另外一种不懂/index.html" afterPath="$PROJECT_DIR$/世界上有10种人-一种懂二进制-另外一种不懂/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/为什么C语言不简单/index.html" afterPath="$PROJECT_DIR$/为什么C语言不简单/index.html" />
@@ -169,8 +166,21 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cpp参考的翻译或校对/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6904">
-              <caret line="125" column="46" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
+            <state relative-caret-position="186">
+              <caret line="264" column="29" selection-start-line="264" selection-start-column="29" selection-end-line="264" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#aside#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#audio#0;n#div#0;n#aside#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c-cpp可变参数加法/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -264,6 +274,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="c-cpp可变参数加法" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GosJiang.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GosJiang.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="about" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -288,18 +312,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1485138995393</updated>
-      <workItem from="1485138997167" duration="369000" />
+      <workItem from="1485138997167" duration="1231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="369000" />
+    <option name="totallyTimeSpent" value="1231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15226555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -341,11 +365,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/c-cpp可变参数加法/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Cpp参考的翻译或校对/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6904">
-          <caret line="125" column="46" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="186">
+          <caret line="264" column="29" selection-start-line="264" selection-start-column="29" selection-end-line="264" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#aside#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#audio#0;n#div#0;n#aside#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

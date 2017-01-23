@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>龙哥盟</title>
+  <title>ＪＹＯ</title>
   <subtitle>英特纳雄耐尔，就一定要实现。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -60,13 +60,13 @@
     <published>2016-09-12T09:19:03.000Z</published>
     <updated>2016-09-12T09:19:31.441Z</updated>
     
-    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/wizardforcel/sicp-py-zh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/wizardforcel/sicp-py-zh&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/GosJiang/sicp-py-zh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/GosJiang/sicp-py-zh&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;很惭愧，就做了一点微小的工作，谢谢大家！&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;a href=&quot;https://github.com/wizardforcel/sicp-py-zh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/wizardforcel/sicp-py-zh&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;a href=&quot;https://github.com/GosJiang/sicp-py-zh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/GosJiang/sicp-py-zh&lt;/a&gt;&lt;/p&gt;
 &lt;p
     
     </summary>
@@ -134,7 +134,7 @@
     <content type="html">&lt;p&gt;我看见2012年就有人说要开坑翻译这本书，当时这本书还只写了一半，那个译者也没坚持翻译完，甚至连已经翻译的部分都找不到了。于是我自己从头开始弄，三个月翻译完了。&lt;/p&gt;
 &lt;p&gt;作者的行文风格比较朴素和直白，但正是没有使用各种专业术语，使得它废话比较多也比较绕，各种代词更是不明所以。我在翻译过来之后也没有做整体的润色，但会尽量忠实于作者的意图，并用更清晰的表述转述出来。&lt;/p&gt;
 &lt;p&gt;此外，作者的“笨办法学JS”已经开始筹备，具体完成时间未知，应该需要等个几年。&lt;/p&gt;
-&lt;p&gt;链接：&lt;a href=&quot;https://github.com/wizardforcel/lcthw-zh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/wizardforcel/lcthw-zh&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;链接：&lt;a href=&quot;https://github.com/GosJiang/lcthw-zh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/GosJiang/lcthw-zh&lt;/a&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
@@ -405,7 +405,7 @@
     
     <content type="html">&lt;p&gt;爬取简书的文章，并生成EPUB格式。&lt;/p&gt;
 &lt;h2 id=&quot;用法&quot;&gt;&lt;a href=&quot;#用法&quot; class=&quot;headerlink&quot; title=&quot;用法&quot;&gt;&lt;/a&gt;用法&lt;/h2&gt;&lt;p&gt;首先到官网下载并安装node.js。&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git clone https://github.com/wizardforcel/jianhelper.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cd jianhelper&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm install&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;node jianhelper url [start [end]]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git clone https://github.com/GosJiang/jianhelper.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cd jianhelper&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm install&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;node jianhelper url [start [end]]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;url：支持三种类型&lt;/p&gt;
 &lt;ul&gt;
@@ -425,7 +425,7 @@
     
       &lt;p&gt;爬取简书的文章，并生成EPUB格式。&lt;/p&gt;
 &lt;h2 id=&quot;用法&quot;&gt;&lt;a href=&quot;#用法&quot; class=&quot;headerlink&quot; title=&quot;用法&quot;&gt;&lt;/a&gt;用法&lt;/h2&gt;&lt;p&gt;首先到官网下载并安装node.js。&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git clone https://github.com/wizardforcel/jianhelper.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cd jianhelper&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm install&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;node jianhelper url [start [end]]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git clone https://github.com/GosJiang/jianhelper.git&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;cd jianhelper&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;npm install&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;node jianhelper url [start [end]]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
