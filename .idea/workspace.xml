@@ -1,139 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d877ec5d-6254-4adf-a244-6e388f89ef87" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cpp参考的翻译或校对/index.html" afterPath="$PROJECT_DIR$/Cpp参考的翻译或校对/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Javascript中四种函数调用方式/index.html" afterPath="$PROJECT_DIR$/Javascript中四种函数调用方式/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/The-First-Diary-in-English/index.html" afterPath="$PROJECT_DIR$/The-First-Diary-in-English/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TwentyEleven暗色系主题实现透明/index.html" afterPath="$PROJECT_DIR$/TwentyEleven暗色系主题实现透明/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TwentyTwelve透明主题二次美化版/index.html" afterPath="$PROJECT_DIR$/TwentyTwelve透明主题二次美化版/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/index.html" afterPath="$PROJECT_DIR$/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2013/06/index.html" afterPath="$PROJECT_DIR$/archives/2013/06/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2013/08/index.html" afterPath="$PROJECT_DIR$/archives/2013/08/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2013/09/index.html" afterPath="$PROJECT_DIR$/archives/2013/09/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2013/10/index.html" afterPath="$PROJECT_DIR$/archives/2013/10/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2013/11/index.html" afterPath="$PROJECT_DIR$/archives/2013/11/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2013/12/index.html" afterPath="$PROJECT_DIR$/archives/2013/12/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2013/index.html" afterPath="$PROJECT_DIR$/archives/2013/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2013/page/2/index.html" afterPath="$PROJECT_DIR$/archives/2013/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2013/page/3/index.html" afterPath="$PROJECT_DIR$/archives/2013/page/3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/01/index.html" afterPath="$PROJECT_DIR$/archives/2014/01/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/03/index.html" afterPath="$PROJECT_DIR$/archives/2014/03/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/04/index.html" afterPath="$PROJECT_DIR$/archives/2014/04/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/05/index.html" afterPath="$PROJECT_DIR$/archives/2014/05/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/06/index.html" afterPath="$PROJECT_DIR$/archives/2014/06/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/07/index.html" afterPath="$PROJECT_DIR$/archives/2014/07/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/08/index.html" afterPath="$PROJECT_DIR$/archives/2014/08/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/09/index.html" afterPath="$PROJECT_DIR$/archives/2014/09/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/10/index.html" afterPath="$PROJECT_DIR$/archives/2014/10/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/11/index.html" afterPath="$PROJECT_DIR$/archives/2014/11/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/11/page/2/index.html" afterPath="$PROJECT_DIR$/archives/2014/11/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/12/index.html" afterPath="$PROJECT_DIR$/archives/2014/12/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/12/page/2/index.html" afterPath="$PROJECT_DIR$/archives/2014/12/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/index.html" afterPath="$PROJECT_DIR$/archives/2014/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/page/2/index.html" afterPath="$PROJECT_DIR$/archives/2014/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/page/3/index.html" afterPath="$PROJECT_DIR$/archives/2014/page/3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/page/4/index.html" afterPath="$PROJECT_DIR$/archives/2014/page/4/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/page/5/index.html" afterPath="$PROJECT_DIR$/archives/2014/page/5/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/page/6/index.html" afterPath="$PROJECT_DIR$/archives/2014/page/6/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2014/page/7/index.html" afterPath="$PROJECT_DIR$/archives/2014/page/7/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2015/01/index.html" afterPath="$PROJECT_DIR$/archives/2015/01/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2015/03/index.html" afterPath="$PROJECT_DIR$/archives/2015/03/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2015/04/index.html" afterPath="$PROJECT_DIR$/archives/2015/04/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2015/05/index.html" afterPath="$PROJECT_DIR$/archives/2015/05/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2015/06/index.html" afterPath="$PROJECT_DIR$/archives/2015/06/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2015/07/index.html" afterPath="$PROJECT_DIR$/archives/2015/07/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2015/08/index.html" afterPath="$PROJECT_DIR$/archives/2015/08/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2015/11/index.html" afterPath="$PROJECT_DIR$/archives/2015/11/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2015/12/index.html" afterPath="$PROJECT_DIR$/archives/2015/12/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2015/index.html" afterPath="$PROJECT_DIR$/archives/2015/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2015/page/2/index.html" afterPath="$PROJECT_DIR$/archives/2015/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2015/page/3/index.html" afterPath="$PROJECT_DIR$/archives/2015/page/3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2016/01/index.html" afterPath="$PROJECT_DIR$/archives/2016/01/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2016/02/index.html" afterPath="$PROJECT_DIR$/archives/2016/02/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2016/03/index.html" afterPath="$PROJECT_DIR$/archives/2016/03/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2016/06/index.html" afterPath="$PROJECT_DIR$/archives/2016/06/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2016/07/index.html" afterPath="$PROJECT_DIR$/archives/2016/07/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2016/08/index.html" afterPath="$PROJECT_DIR$/archives/2016/08/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2016/09/index.html" afterPath="$PROJECT_DIR$/archives/2016/09/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2016/12/index.html" afterPath="$PROJECT_DIR$/archives/2016/12/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2016/index.html" afterPath="$PROJECT_DIR$/archives/2016/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2016/page/2/index.html" afterPath="$PROJECT_DIR$/archives/2016/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/2016/page/3/index.html" afterPath="$PROJECT_DIR$/archives/2016/page/3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/index.html" afterPath="$PROJECT_DIR$/archives/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/10/index.html" afterPath="$PROJECT_DIR$/archives/page/10/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/11/index.html" afterPath="$PROJECT_DIR$/archives/page/11/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/12/index.html" afterPath="$PROJECT_DIR$/archives/page/12/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/13/index.html" afterPath="$PROJECT_DIR$/archives/page/13/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/2/index.html" afterPath="$PROJECT_DIR$/archives/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/3/index.html" afterPath="$PROJECT_DIR$/archives/page/3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/4/index.html" afterPath="$PROJECT_DIR$/archives/page/4/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/5/index.html" afterPath="$PROJECT_DIR$/archives/page/5/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/6/index.html" afterPath="$PROJECT_DIR$/archives/page/6/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/7/index.html" afterPath="$PROJECT_DIR$/archives/page/7/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/8/index.html" afterPath="$PROJECT_DIR$/archives/page/8/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives/page/9/index.html" afterPath="$PROJECT_DIR$/archives/page/9/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/c-cpp可变参数加法/index.html" afterPath="$PROJECT_DIR$/c-cpp可变参数加法/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/hexo/index.html" afterPath="$PROJECT_DIR$/categories/hexo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/wordpress/index.html" afterPath="$PROJECT_DIR$/categories/wordpress/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/公告/index.html" afterPath="$PROJECT_DIR$/categories/公告/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/安全/index.html" afterPath="$PROJECT_DIR$/categories/安全/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/应用/index.html" afterPath="$PROJECT_DIR$/categories/应用/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/应用/page/2/index.html" afterPath="$PROJECT_DIR$/categories/应用/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/杂记/index.html" afterPath="$PROJECT_DIR$/categories/杂记/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/杂记/page/2/index.html" afterPath="$PROJECT_DIR$/categories/杂记/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/杂记/page/3/index.html" afterPath="$PROJECT_DIR$/categories/杂记/page/3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/杂记/page/4/index.html" afterPath="$PROJECT_DIR$/categories/杂记/page/4/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/编程/index.html" afterPath="$PROJECT_DIR$/categories/编程/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/编程/page/2/index.html" afterPath="$PROJECT_DIR$/categories/编程/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/编程/page/3/index.html" afterPath="$PROJECT_DIR$/categories/编程/page/3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/编程/page/4/index.html" afterPath="$PROJECT_DIR$/categories/编程/page/4/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/编程/page/5/index.html" afterPath="$PROJECT_DIR$/categories/编程/page/5/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/网站/index.html" afterPath="$PROJECT_DIR$/categories/网站/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories/资源/index.html" afterPath="$PROJECT_DIR$/categories/资源/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-数据结构-一个简单的栈模型/index.html" afterPath="$PROJECT_DIR$/cpp-数据结构-一个简单的栈模型/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp-检测机器大端或者小端/index.html" afterPath="$PROJECT_DIR$/cpp-检测机器大端或者小端/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cpp的开发效率真的那么低吗/index.html" afterPath="$PROJECT_DIR$/cpp的开发效率真的那么低吗/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/donors/index.html" afterPath="$PROJECT_DIR$/donors/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ejb-local/index.html" afterPath="$PROJECT_DIR$/ejb-local/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello-es6/index.html" afterPath="$PROJECT_DIR$/hello-es6/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hexo-tutor-1/index.html" afterPath="$PROJECT_DIR$/hexo-tutor-1/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hexo-tutor-2/index.html" afterPath="$PROJECT_DIR$/hexo-tutor-2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hexo-tutor-3/index.html" afterPath="$PROJECT_DIR$/hexo-tutor-3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hexo-tutor-4/index.html" afterPath="$PROJECT_DIR$/hexo-tutor-4/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hexo-tutor-5/index.html" afterPath="$PROJECT_DIR$/hexo-tutor-5/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hexo-tutor-6/index.html" afterPath="$PROJECT_DIR$/hexo-tutor-6/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hexo-tutor-7/index.html" afterPath="$PROJECT_DIR$/hexo-tutor-7/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/it-ebooks/index.html" afterPath="$PROJECT_DIR$/it-ebooks/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery-读取-checkbox/index.html" afterPath="$PROJECT_DIR$/jquery-读取-checkbox/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kill-xp-and-ie8/index.html" afterPath="$PROJECT_DIR$/kill-xp-and-ie8/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/navicat-v11-全系列通杀/index.html" afterPath="$PROJECT_DIR$/navicat-v11-全系列通杀/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/10/index.html" afterPath="$PROJECT_DIR$/page/10/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/11/index.html" afterPath="$PROJECT_DIR$/page/11/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/12/index.html" afterPath="$PROJECT_DIR$/page/12/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/13/index.html" afterPath="$PROJECT_DIR$/page/13/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/2/index.html" afterPath="$PROJECT_DIR$/page/2/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/3/index.html" afterPath="$PROJECT_DIR$/page/3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/4/index.html" afterPath="$PROJECT_DIR$/page/4/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/5/index.html" afterPath="$PROJECT_DIR$/page/5/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/6/index.html" afterPath="$PROJECT_DIR$/page/6/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/7/index.html" afterPath="$PROJECT_DIR$/page/7/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/8/index.html" afterPath="$PROJECT_DIR$/page/8/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/9/index.html" afterPath="$PROJECT_DIR$/page/9/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql-备忘录/index.html" afterPath="$PROJECT_DIR$/sql-备忘录/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/世界上有10种人-一种懂二进制-另外一种不懂/index.html" afterPath="$PROJECT_DIR$/世界上有10种人-一种懂二进制-另外一种不懂/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/为什么C语言不简单/index.html" afterPath="$PROJECT_DIR$/为什么C语言不简单/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/为什么不要在Cpp中使用原生指针/index.html" afterPath="$PROJECT_DIR$/为什么不要在Cpp中使用原生指针/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/十五句箴言-句句在理/index.html" afterPath="$PROJECT_DIR$/十五句箴言-句句在理/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/吐槽一下Java的ArrayList/index.html" afterPath="$PROJECT_DIR$/吐槽一下Java的ArrayList/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/少年-光良/index.html" afterPath="$PROJECT_DIR$/少年-光良/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/开题报告-文献检索账号-文献综述-外文翻译-抄袭检测软件-论文目录/index.html" afterPath="$PROJECT_DIR$/开题报告-文献检索账号-文献综述-外文翻译-抄袭检测软件-论文目录/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/我是怎么找到电子书的-IT篇/index.html" afterPath="$PROJECT_DIR$/我是怎么找到电子书的-IT篇/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/找到了点有意思的资料/index.html" afterPath="$PROJECT_DIR$/找到了点有意思的资料/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/神器-无需注册的临时邮箱/index.html" afterPath="$PROJECT_DIR$/神器-无需注册的临时邮箱/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/给计算机大一新生的建议给计算机大一新生的建议/index.html" afterPath="$PROJECT_DIR$/给计算机大一新生的建议给计算机大一新生的建议/index.html" />
-    </list>
+    <list default="true" id="d877ec5d-6254-4adf-a244-6e388f89ef87" name="Default" comment="" />
     <ignored path="GosJiang.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -428,12 +296,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1485138995393</updated>
-      <workItem from="1485138997167" duration="8420000" />
+      <workItem from="1485138997167" duration="9202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8420000" />
+    <option name="totallyTimeSpent" value="9202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
