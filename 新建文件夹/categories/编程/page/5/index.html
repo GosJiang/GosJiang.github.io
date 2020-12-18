@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <meta name="description" content="I want my tears back " />
+  
+
+  
+  <meta name="keywords" content="ＪＹＯ,Wlecome" />
+  
+  
+  <meta name="google-site-verification" content="NCXVSqxqB-os803-VFMtIEd1SUNJVOIjctCfNYUwD0w" />
+  <meta name="baidu-site-verification" content="Nzwx7HuplM" />
+  
+  <meta name="msvalidate.01" content="9E9EA92F7E5327E1FE8A5196D5253664" />
+  
+  
+  
+  <title>Category: 编程 | ＪＹＯ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="I want my tears back ">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ＪＹＯ">
+<meta property="og:url" content="http://gosjiang.github.io/categories/编程/page/5/index.html">
+<meta property="og:site_name" content="ＪＹＯ">
+<meta property="og:description" content="I want my tears back ">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ＪＹＯ">
+<meta name="twitter:description" content="I want my tears back ">
+  
+    <link rel="alternative" href="/atom.xml" title="ＪＹＯ" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="http://7u2hdm.com1.z0.glb.clouddn.com/favicon.ico">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+  
+  <!-- baidu webmaster push -->
+  <script src='//push.zhanzhang.baidu.com/push.js'></script>
+</head>
+<body class="home blog custom-background custom-font-enabled single-author">
+  <div id="page" class="hfeed site">
+      <header id="masthead" class="site-header" role="banner">
+    <hgroup>
+      <h1 class="site-title">
+        <a href="/" title="ＪＹＯ" rel="home">ＪＹＯ</a>
+      </h1>
+      
+        <h2 class="site-description">
+          <a href="/" id="subtitle">I want my tears back </a>
+        </h2>
+      
+    </hgroup>
+
+    <nav id="site-navigation" class="main-navigation" role="navigation">
+            <button class="menu-toggle">菜单</button>
+            <a class="assistive-text" href="/#content" title="跳至内容">跳至内容</a><!--TODO-->
+            <div class="menu-main-container">
+                <ul id="menu-main" class="nav-menu">
+                
+
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://github.com/GosJiang">代码仓库</a></li>
+                
+
+                
+
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/about">留言板</a></li>
+                
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/about">留言板</a></li>
+                
+
+                
+                </ul>
+            </div>
+    </nav>
+</header>
+      <div id="main" class="wrapper">
+        <div id="primary" class="site-content"><div id="content" role="main">
+  
+    <article id="post-cpp-数据结构-一个简单的栈模型" class="post-cpp-数据结构-一个简单的栈模型 post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/cpp-数据结构-一个简单的栈模型/">数据结构：一个简单的栈模型</a>
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="/cpp-数据结构-一个简单的栈模型/#comments" class="leave-reply">评论</a>
+            
+            <a href="javascript:void(0);"  data-url="https://gosjiang.github.io/cpp-数据结构-一个简单的栈模型/" data-id="ciy2ut3yh001sckg6xs2k4i3t" class="leave-reply bdsharebuttonbox" data-cmd="more">分享</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <pre>
+//学习数据结构后的一点心得体会
+
+//stack.h文件：
+
+#pragma once
+#ifndef STACK_H
+#define STACK_H
+
+#include &lt;stdexcept&gt;
+using namespace std;
+
+template&lt;class Entry, size_t Max&gt;
+class Stack
+{
+private:
+size_t count;
+Entry data[Max];
+
+public:
+Stack() {count = 0;}
+bool empty() {return count == 0;}
+void push(const Entry &amp;e)
+{
+if(count == Max)throw exception("栈已满。");
+data[count] = e;
+count++;
+}
+void pop()
+{
+if(count == 0)throw exception("栈已空。");
+count--;
+}
+Entry top()
+{
+if(count == 0)throw exception("栈已空。");
+return data[count - 1];
+}
+
+};
+
+#endif
+
+//main.cpp文件：
+
+#include "stack.h"
+
+#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+    Stack&lt;int, 100&gt; psgs;
+    int n;
+    cout &lt;&lt; "请输入游客人数：" &lt;&lt; endl;
+     cin &gt;&gt; n;
+    cout &lt;&lt; "按顺序输入乘客编号：" &lt;&lt; endl;
+    for(int i = 0; i &lt; n; i++)
+     {
+         int item;
+         cin &gt;&gt; item;
+        psgs.push(item);
+    }
+    cout &lt;&lt; "乘客下车次序是：" &lt;&lt; endl;
+    while(!psgs.empty())
+    {
+        cout &lt;&lt; psgs.top() &lt;&lt; ' ';
+        psgs.pop();
+    }
+    cout &lt;&lt; endl;
+    system("pause");
+    return 0;
+}
+</pre>
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/cpp-数据结构-一个简单的栈模型/">
+    <time datetime="2013-09-19T14:46:41.000Z" class="entry-date">
+        9月 19 2013
+    </time>
+</a>
+    
+  <span class="article-delim">&#8226;</span>
+  <div class="article-category">
+  <a class="article-category-link" href="/categories/编程/">编程</a>
+  </div>
+
+    
+  <span class="article-delim">&#8226;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/cpp/">cpp</a></li></ul>
+
+    </footer>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-世界上有10种人-一种懂二进制-另外一种不懂" class="post-世界上有10种人-一种懂二进制-另外一种不懂 post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/世界上有10种人-一种懂二进制-另外一种不懂/">世界上有10种人 一种懂二进制 另外一种不懂</a>
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="/世界上有10种人-一种懂二进制-另外一种不懂/#comments" class="leave-reply">评论</a>
+            
+            <a href="javascript:void(0);"  data-url="https://gosjiang.github.io/世界上有10种人-一种懂二进制-另外一种不懂/" data-id="ciy2ut40n004wckg6h1b17wej" class="leave-reply bdsharebuttonbox" data-cmd="more">分享</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/世界上有10种人-一种懂二进制-另外一种不懂/">
+    <time datetime="2013-09-15T11:55:02.000Z" class="entry-date">
+        9月 15 2013
+    </time>
+</a>
+    
+  <span class="article-delim">&#8226;</span>
+  <div class="article-category">
+  <a class="article-category-link" href="/categories/编程/">编程</a>
+  </div>
+
+    
+    </footer>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-关于-string-nops-为什么是-1" class="post-关于-string-nops-为什么是-1 post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/关于-string-nops-为什么是-1/">关于string::nops为什么是-1</a>
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="/关于-string-nops-为什么是-1/#comments" class="leave-reply">评论</a>
+            
+            <a href="javascript:void(0);"  data-url="https://gosjiang.github.io/关于-string-nops-为什么是-1/" data-id="ciy2ut40z005jckg6klay1mdi" class="leave-reply bdsharebuttonbox" data-cmd="more">分享</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">const size_t string::nops = -1;</span><br></pre></td></tr></table></figure>
+<p>大家可能看到这条定义有些疑惑 为什么找不到字符串要返回-1呢</p>
+        
+          <p class="article-more-link">
+            <a href="/关于-string-nops-为什么是-1/#more" class="more-link">更多内容 <span class="meta-nav">→</span></a>
+          </p>
+        
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/关于-string-nops-为什么是-1/">
+    <time datetime="2013-09-15T03:41:23.000Z" class="entry-date">
+        9月 15 2013
+    </time>
+</a>
+    
+  <span class="article-delim">&#8226;</span>
+  <div class="article-category">
+  <a class="article-category-link" href="/categories/编程/">编程</a>
+  </div>
+
+    
+    </footer>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-说说Win7的Aero效果" class="post-说说Win7的Aero效果 post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/说说Win7的Aero效果/">说说Win7的Aero效果</a>
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="/说说Win7的Aero效果/#comments" class="leave-reply">评论</a>
+            
+            <a href="javascript:void(0);"  data-url="https://gosjiang.github.io/说说Win7的Aero效果/" data-id="ciy2ut42c0081ckg6eizrvoz8" class="leave-reply bdsharebuttonbox" data-cmd="more">分享</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <p>最近看到别人写的一个例程，就是把控制台弄成了全透明，我把源码下载下来做了研<br>究。</p>
+<p>其实从Vista版本之后，WindowsAPI里面增加了几个函数，用于Aero效果的实现。有<br>两个最主要的：DwmExtendFrameIntoClientArea和DwmIsCompositionEnabled。</p>
+<p>DwmIsCompositionEnabled用于检测系统的桌面组合功能是否打开。<br>DwmExtendFrameIntoClientArea用于开启控制窗体的玻璃效果，他需要一个名为<br>MARGINS的结构作为参数，表达的是窗口四周的边框。我们实际上就是要非客户区的<br>边框往内扩展，等到MARGINS足够大之后，就变成全玻璃特效的了。</p>
+<p>下面是两个实例：<br>
+        
+          <p class="article-more-link">
+            <a href="/说说Win7的Aero效果/#more" class="more-link">更多内容 <span class="meta-nav">→</span></a>
+          </p>
+        
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/说说Win7的Aero效果/">
+    <time datetime="2013-09-06T07:34:55.000Z" class="entry-date">
+        9月 6 2013
+    </time>
+</a>
+    
+  <span class="article-delim">&#8226;</span>
+  <div class="article-category">
+  <a class="article-category-link" href="/categories/编程/">编程</a>
+  </div>
+
+    
+    </footer>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-c#-多线程Invoke示例" class="post-c#-多线程Invoke示例 post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/c#-多线程Invoke示例/">C#多线程Invoke示例</a>
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="/c#-多线程Invoke示例/#comments" class="leave-reply">评论</a>
+            
+            <a href="javascript:void(0);"  data-url="https://gosjiang.github.io/c#-多线程Invoke示例/" data-id="ciy2ut3yc001kckg6mndfemuj" class="leave-reply bdsharebuttonbox" data-cmd="more">分享</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">public void DoWork()</span><br><span class="line">&#123;</span><br><span class="line">    //错误示例：</span><br><span class="line">    textbox1.text = &quot;Hello&quot;;</span><br><span class="line"></span><br><span class="line">    //正确示例：</span><br><span class="line">    textbox1.Invoke((str) =&gt; textbox1.text = str, new Object[]&#123; &quot;Hello&quot; &#125;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">private void button1_Click(object sender, EventArgs e)</span><br><span class="line">&#123;</span><br><span class="line">    //...</span><br><span class="line">    Thread tr = new Thread(new ThreadStart(DoWork));</span><br><span class="line">    tr.Start();</span><br><span class="line">    //...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/c#-多线程Invoke示例/">
+    <time datetime="2013-09-03T09:05:58.000Z" class="entry-date">
+        9月 3 2013
+    </time>
+</a>
+    
+  <span class="article-delim">&#8226;</span>
+  <div class="article-category">
+  <a class="article-category-link" href="/categories/编程/">编程</a>
+  </div>
+
+    
+  <span class="article-delim">&#8226;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Invoke/">Invoke</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/csharp/">csharp</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/多线程/">多线程</a></li></ul>
+
+    </footer>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-对于多线程编程的几点个人见解" class="post-对于多线程编程的几点个人见解 post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/对于多线程编程的几点个人见解/">对于多线程编程的几点个人见解</a>
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="/对于多线程编程的几点个人见解/#comments" class="leave-reply">评论</a>
+            
+            <a href="javascript:void(0);"  data-url="https://gosjiang.github.io/对于多线程编程的几点个人见解/" data-id="ciy2ut41l006lckg66vrhx6pf" class="leave-reply bdsharebuttonbox" data-cmd="more">分享</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <p>（部分来源于《深入理解计算机系统》一书）</p>
+<p>1.线程有两种状态：聚合态和分离态。聚合态线程拥有一个句柄可被控制，分离态线程虽然可以正常运行，但不可以通过句柄控制。</p>
+<p>2.线程刚刚创建出来是聚合态的，在运行中关闭句柄可以转化为分离态，且不可逆。<br>
+        
+          <p class="article-more-link">
+            <a href="/对于多线程编程的几点个人见解/#more" class="more-link">更多内容 <span class="meta-nav">→</span></a>
+          </p>
+        
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/对于多线程编程的几点个人见解/">
+    <time datetime="2013-08-29T05:02:01.000Z" class="entry-date">
+        8月 29 2013
+    </time>
+</a>
+    
+  <span class="article-delim">&#8226;</span>
+  <div class="article-category">
+  <a class="article-category-link" href="/categories/编程/">编程</a>
+  </div>
+
+    
+  <span class="article-delim">&#8226;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/多线程/">多线程</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/编程/">编程</a></li></ul>
+
+    </footer>
+</article>
+
+
+
+
+
+
+  
+    <article id="post-小议-innerTextHTML-以及-outerTextHTML" class="post-小议-innerTextHTML-以及-outerTextHTML post type-post status-publish format-standard hentry">
+    <!---->
+
+      <header class="entry-header">
+        
+        
+  
+    <h1 class="entry-title">
+      <a class="article-title" href="/小议-innerTextHTML-以及-outerTextHTML/">小议innerText/HTML以及outerText/HTML</a>
+    </h1>
+  
+
+        
+        <div class="comments-link">
+            
+            <a href="/小议-innerTextHTML-以及-outerTextHTML/#comments" class="leave-reply">评论</a>
+            
+            <a href="javascript:void(0);"  data-url="https://gosjiang.github.io/小议-innerTextHTML-以及-outerTextHTML/" data-id="ciy2ut41m006nckg6mqna8pn2" class="leave-reply bdsharebuttonbox" data-cmd="more">分享</a>
+        </div><!-- .comments-link -->
+      </header><!-- .entry-header -->
+
+    <div class="entry-content">
+      
+        <p>前段时间玩填表的时候就想说说这个话题。</p>
+<p>先看一个按钮：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;button id=&quot;btn1&quot;&gt;Button1&lt;/button&gt;</span><br></pre></td></tr></table></figure>
+<p>inner指的是Button1的部分，即只有文本。</p>
+<p>outer指的是整个一行，包括标签。</p>
+        
+          <p class="article-more-link">
+            <a href="/小议-innerTextHTML-以及-outerTextHTML/#more" class="more-link">更多内容 <span class="meta-nav">→</span></a>
+          </p>
+        
+      
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+    <a href="/小议-innerTextHTML-以及-outerTextHTML/">
+    <time datetime="2013-08-16T09:54:32.000Z" class="entry-date">
+        8月 16 2013
+    </time>
+</a>
+    
+  <span class="article-delim">&#8226;</span>
+  <div class="article-category">
+  <a class="article-category-link" href="/categories/编程/">编程</a>
+  </div>
+
+    
+    </footer>
+</article>
+
+
+
+
+
+
+  
+  
+    <nav id="pagination">
+      <nav id="page-nav">
+        <a class="extend prev" rel="prev" href="/categories/编程/page/4/">&laquo; 上一页</a><a class="page-number" href="/categories/编程/">1</a><span class="space">&hellip;</span><a class="page-number" href="/categories/编程/page/3/">3</a><a class="page-number" href="/categories/编程/page/4/">4</a><span class="page-number current">5</span>
+      </nav>
+    </nav>
+  
+
+</div></div>
+        <div id="secondary" class="widget-area" role="complementary">
+  
+    <aside class="widget">
+    <h3 class="widget-title">关于我</h3>
+    <div class="widget-content">
+      <p>邮箱：jiangyolove@gamil.com</p>
+      <p>QQ：1436807734</p>
+      <iframe width="100%" height="70" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=0&isFans=0&uid=2216356441&verifier=2e06a95d&dpc=1"></iframe>
+    </div>
+</aside>
+  
+    <aside class="widget">
+    <h3 class="widget-title">Wlecome</h3>
+    <div class="widget-content">
+      <img src='/css/images/wle.jpg' style='width:100%;height: 400px' />
+    </div>
+</aside>
+  
+    
+  <aside class="widget">     <h3 class="widget-title">Wlecome</h3>     <div class="widget-content">       <img src='/css/images/wle.jpg' style='width:100%;height: 200px' />     </div> </aside>         <aside class="widget">     <h3 class="widget-title">Music</h3>     <div class="widget-content">       <audio src="/css/music/music1.mp3" controls="controls"              style="width:100%">         您的浏览器不支持 audio 标签。       </audio>     </div>   </aside>
+
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget-content">
+      <ul>
+        
+
+        
+      </ul>
+    </div>
+  </aside>
+
+  
+    
+  <aside class="widget">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget-content">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">十二月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">九月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">八月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">七月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">六月 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">三月 2016</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">二月 2016</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">一月 2016</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">十二月 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">十一月 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">八月 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">七月 2015</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">六月 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">五月 2015</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">四月 2015</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/03/">三月 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/01/">一月 2015</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/12/">十二月 2014</a><span class="archive-list-count">15</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/11/">十一月 2014</a><span class="archive-list-count">14</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">十月 2014</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">九月 2014</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">八月 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">七月 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">六月 2014</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">五月 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">四月 2014</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/03/">三月 2014</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/01/">一月 2014</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/12/">十二月 2013</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">十一月 2013</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/10/">十月 2013</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/09/">九月 2013</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/08/">八月 2013</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/06/">六月 2013</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </aside>
+
+  
+    
+
+
+  
+    
+
+
+  
+    <aside class="widget">
+    <h3 class="widget-title">友情链接</h3>
+    <div class="widget-content">
+<ul id='link-list'>
+<!-- link begin -->
+<li><a href='http://www.google.com/'>Google</a></li>
+<!-- link end -->
+</ul>
+    </div>
+</aside>
+  
+
+
+  
+</div>
+      </div>
+
+    <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+<script src="/js/jquery-2.0.3.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+<script src="/js/navigation.js"></script>
+
+<script>
+    //Kill XP and IE8
+    (function(){
+        var ua = navigator.userAgent;
+        var res = /Windows NT (\d+\.\d+)/.exec(ua);
+        var xpOrLower = res && JSON.parse(res[1]) < 6;
+        res = /MSIE (\d+\.\d+)/.exec(ua);
+        var ie8OrLower = res && JSON.parse(res[1]) < 9;
+        if(xpOrLower || ie8OrLower)
+        {
+            alert('请不要用XP及之前的Windows系统，和IE8及之前的IE浏览器访问本站！');
+            location.href = "about:blank";
+        }
+        var fromBaiduSE = /^https?:\/\/www.baidu.com/.test(document.referrer);
+        if(fromBaiduSE)
+        {
+            alert('检测到你还在使用百度搜索，作为一个程序员，这是一种自暴自弃！\n\n做不作恶的程序员，从不用百度开始！')
+            location.href = "about:blank";
+        }
+    })();
+</script>
+
+<div id="bg"></div>
+
+  </div>
+</body>
+</html>
