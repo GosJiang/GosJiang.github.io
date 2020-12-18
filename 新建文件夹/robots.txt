@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: http://gosjiang.github.io/sitemap.xml
