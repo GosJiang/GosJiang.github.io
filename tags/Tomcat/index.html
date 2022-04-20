@@ -37,6 +37,22 @@
 
 
 
+<!-- 天气接口 -->
+
+    <!-- 天气接口-->
+<script type="text/javascript">
+    WIDGET = {FID: '1tFpFZ5Mtj'}
+  </script>
+<script type="text/javascript">
+    //只在桌面版网页启用特效
+    var windowWidth = $(window).width();
+    if (windowWidth > 768) {
+        document.write('<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"><\/script>');
+        }
+  </script>
+
+
+
 <body>
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
@@ -312,19 +328,10 @@
                 </a>
                 
                 
-                <a href="/tags/Oracle/" title="Oracle: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Oracle" style="background-color: #E8F8F5;">Oracle
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/Tomcat/" title="Tomcat: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-active "
-                            data-tagname="Tomcat" style="background-color: #FEF9E7;">Tomcat
+                            data-tagname="Tomcat" style="background-color: #E8F8F5;">Tomcat
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -333,7 +340,7 @@
                 <a href="/tags/Typora/" title="Typora: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Typora" style="background-color: #F8F9F9;">Typora
+                            data-tagname="Typora" style="background-color: #FEF9E7;">Typora
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -342,7 +349,16 @@
                 <a href="/tags/Markdown/" title="Markdown: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Markdown" style="background-color: #82E0AA;">Markdown
+                            data-tagname="Markdown" style="background-color: #F8F9F9;">Markdown
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Oracle/" title="Oracle: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Oracle" style="background-color: #82E0AA;">Oracle
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -681,22 +697,6 @@ $(function () {
 
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
-    
-
-    <!-- 天气接口 -->
-    
-        <!-- 天气接口-->
-<script type="text/javascript">
-    WIDGET = {FID: '1tFpFZ5Mtj'}
-  </script>
-<script type="text/javascript">
-    //只在桌面版网页启用特效
-    var windowWidth = $(window).width();
-    if (windowWidth > 768) {
-        document.write('<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"><\/script>');
-        }
-  </script>
-
     
 
 </body>
